@@ -6,7 +6,7 @@ Faça um programa que gere a série até que o valor seja maior que 500.
 primeiro = 0
 segundo = 1
 
-for i in range(501):
+for i in range(500):
     termo = primeiro + segundo
     segundo = primeiro
     primeiro = termo
