@@ -10,16 +10,13 @@ meses = ['1 - Janeiro', '2 - Fevereiro', '3 - Março', '4 - Abril', '5 - Maio',
 acima = {}
 
 for i in range(len(meses)):
-    print(f'Informe a temperatura do mês: {meses[i]}')
-    temp = float(input('Informe a temperatura do mês: '))
-    temps.append(temp)
+    temp = temps.append(float(input(f'Informe a temperatura média de: {meses[i]}\n')))
 
-soma = sum(temps)
-media = soma / len(temps)
+media = sum(temps) / len(temps)
 
 for i in range(len(meses)):
-    if temp[i] > media:
-        acima.update({meses[i] : temp[i]})
+    if temps[i] > media:
+        acima.update({meses[i] : temps[i]})
 
-print(f'Média das temperaturas: {media}')
+print(f'Média das temperaturas: {media: .2f}')
 print(f'Meses com temperatura acima da média: {acima}')
