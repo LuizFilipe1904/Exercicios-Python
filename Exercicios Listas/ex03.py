@@ -15,5 +15,5 @@ for i in range(4):
 
 print(f'As notas foram: {notas}')
 
-media = soma / 4
+media = soma / len(notas)
 print(f'A média dessas notas foram: {media}')
