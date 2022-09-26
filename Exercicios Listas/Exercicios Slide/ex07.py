@@ -20,8 +20,8 @@ num = pares + impares
 num.sort()
 
 print(f'''
-Pares: {pares}
-Impares: {impares}
+Pares: {pares}\n
+Impares: {impares}\n
 Todos os números: {num}
 
 ''')
