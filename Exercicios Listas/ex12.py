@@ -17,4 +17,5 @@ media = soma / len(alturas)
 
 if idade > 13 and alt < media:
     inf.append(alt)
+    
 print(len(inf))
