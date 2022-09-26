@@ -8,7 +8,7 @@ pares = []
 impares = []
 
 for i in range(20):
-    n = float(input('Digite um número: '))
+    n = int(input('Digite um número: '))
     numeros.append(n)
 
     if n % 2 == 0:
