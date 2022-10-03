@@ -9,7 +9,7 @@ def lista(vetor):
     inv = sorted(vetor, reverse=True)
     todas = [[vetor], [inv], [ord]]
     print(todas)
-    #return todas
+    return todas
 
 
 numeros = []
